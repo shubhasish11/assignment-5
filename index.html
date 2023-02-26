@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assingment Five</title>
+    <!-- link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="mx-7 mt-10">
+
+    <header>
+        <!-- navigation-bar -->
+        <div class="navbar bg-blue-200 rounded px-10 ">
+            <div class="navbar-start mx-auto">
+                <a class="normal-case text-xl font-bold text-center ">Interactive
+                </a>
+            </div>
+            <div class="navbar-end mx-auto">
+                <a class="btn bg-blue-800 " href="ans.html">Blog</a>
+                <a ></a>
+            </div>
+        </div>
+    </header>
+    <!-- main-section -->
+    <main class="">
+        <!-- parent-section -->
+        <section class="pt-10  flex flex-col md:flex-row lg:flex-row" >
+            <!-- container-Left-side-Child -->
+            <div class=" md:w-[70%] w-full grid  md:grid-cols-3 gap-4  ">
+                <!-- card_no_one -->
+                <div class="card w-full bg-base-100 shadow-xl ">
+                    <figure class="px-10 pt-10">
+                        <img src="images/triangle.png" alt="triangle" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 id="triangle-heading" class="card-title">Triangle</h2>
+                        <h2 id="triangle-formula">Area(A)=0.5*b*h</h2>
+                        <div class="grid grid-cols-2">
+                            <div class="grid
+                             grid-cols-2">
+                                <input id="triangle-first-input" type="text" placeholder="b" class="border rounded pl-2 bg-slate-100 text-xl text-black">
+                                <label for="" class="text-xl text-black"> cm</label>
+                            </div>
+                            <div class="grid
+                            grid-cols-2 rounded">
+                                <input id="triangle-second-input" type="text" placeholder="h" class="border pl-2 text-xl text-black bg-slate-100">
+                                <label for="" class="text-xl text-black"> cm</label>
+                            </div>
+                         
+                        </div>
+                        <div class="card-actions w-full ">
+                            <button id="triangle-btn" class="btn btn-primary btn-block text-xxl font-bold">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-no-two -->
+                <div class="card w-full bg-base-100 shadow-xl pt-11 ">
+                    <figure class="px-10 pt-10">
+                        <img src="images/rectangle.png" alt="triangle" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 id="rectangle-heading" class="card-title">Rectangle</h2>
+                        <h2 id="rectangle-formula">Area(A)=w*I</h2>
+                        <div class="grid grid-cols-2">
+                            <div class="grid
+                             grid-cols-2">
+                                <input id="rectangle-first-input" type="text" placeholder="w" class="border rounded pl-2 bg-slate-100 text-xl text-black">
+                                <label for="" class="text-xl text-black"> cm</label>
+                            </div>
+                            <div class="grid
+                            grid-cols-2 rounded">
+                                <input id="rectangle-second-input" type="text" placeholder="i" class="border pl-2 text-xl text-black bg-slate-100">
+                                <label for="" class="text-xl text-black"> cm</label>
+                            </div>
+                         
+                        </div>
+                        <div class="card-actions w-full ">
+                            <button id="rectangle-btn" class="btn btn-primary btn-block text-xxl font-bold">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-no-three -->
+                <div class="card w-full bg-base-100 shadow-xl pt-12">
+                    <figure class="px-10 pt-10 mb-4">
+                        <img src="images/parallelogram.png" alt="triangle" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 id="Parallelogram-heading" class="card-title">Parallelogram</h2>
+                        <h2 id="Parallelogram-formula">Area(A)=b*h</h2>
+                        <div class="grid grid-cols-2">
+                            <div class="grid
+                             grid-cols-2">
+                                <input id="Parallelogram-first-input" type="text" placeholder="b" class="border rounded pl-2 bg-slate-100 text-xl text-black">
+                                <label for="" class="text-xl text-black"> cm</label>
+                            </div>
+                            <div class="grid
+                            grid-cols-2 rounded">
+                                <input id="Parallelogram-second-input" type="text" placeholder="h" class="border pl-2 text-xl text-black bg-slate-100">
+                                <label for="" class="text-xl text-black"> cm</label>
+                            </div>
+                         
+                        </div>
+                        <div class="card-actions w-full ">
+                            <button id="Parallelogram-btn" class="btn btn-primary btn-block text-xxl font-bold">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-no-four -->
+                <div class="card w-full bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="images/rhombus.png" alt="triangle" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 id="Rhombus-heading" class="card-title">Rhombus</h2>
+                        <h2 id="Rhombus-formula">Area (A) =
+                            0.5* <span>d <sub>1</sub> </span>*
+                            <span>d <sub>2</sub> </span> </h2>
+                        <div class="grid grid-cols-2">
+                            <div class="grid
+                             grid-cols-2">
+                                <input id="Rhombus-first-input" type="text" placeholder="b" class="border rounded pl-2 bg-slate-100 text-xl text-black">
+                                <label for="" class="text-xl text-black"> cm</label>
+                            </div>
+                            <div class="grid
+                            grid-cols-2 rounded">
+                                <input id="Rhombus-second-input" type="text" placeholder="h" class="border pl-2 text-xl text-black bg-slate-100">
+                                <label for="" class="text-xl text-black"> cm</label>
+                            </div>
+                         
+                        </div>
+                        <div class="card-actions w-full ">
+                            <button id="Rhombus-btn" class="btn btn-primary btn-block text-xxl font-bold">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-no-five -->
+                <div class="card w-full bg-base-100 shadow-xl ">
+                    <figure class="px-10 pt-10">
+                        <img src="images/pentagon.png" alt="triangle" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 id="Pentagon-heading" class="card-title">Pentagon</h2>
+                        <h2 id="Pentagon-formula">Area(A)=0.5*p*b</h2>
+                        <div class="grid grid-cols-2">
+                            <div class="grid
+                             grid-cols-2">
+                                <input id="Pentagon-first-input" type="text" placeholder="p" class="border rounded pl-2 bg-slate-100 text-xl text-black">
+                                <label for="" class="text-xl text-black"> cm</label>
+                            </div>
+                            <div class="grid
+                            grid-cols-2 rounded">
+                                <input id="Pentagon-second-input" type="text" placeholder="b" class="border pl-2 text-xl text-black bg-slate-100">
+                                <label for="" class="text-xl text-black"> cm</label>
+                            </div>
+                         
+                        </div>
+                        <div class="card-actions w-full ">
+                            <button id="Pentagon-btn" class="btn btn-primary btn-block text-xxl font-bold">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-no-six -->
+                <div class="card w-full bg-base-100 shadow-xl pt-9">
+                    <figure class="px-10 pt-10">
+                        <img src="images/ellipse.png" alt="triangle" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 id="Ellipse-heading" class="card-title">Ellipse</h2>
+                        <h2 id="Ellipse-formula">Area (A) = 	&#960;  ab</h2>
+                        <div class="grid grid-cols-2">
+                            <div class="grid
+                             grid-cols-2">
+                                <input id="Ellipse-first-input" type="text" placeholder="a" class="border rounded pl-2 bg-slate-100 text-xl text-black">
+                                <label for="" class="text-xl text-black"> cm</label>
+                            </div>
+                            <div class="grid
+                            grid-cols-2 rounded">
+                                <input id="Ellipse-second-input"  type="text" placeholder="b" class="border pl-2 text-xl text-black bg-slate-100">
+                                <label for="" class="text-xl text-black"> cm</label>
+                            </div>
+                         
+                        </div>
+                        <div class="card-actions w-full ">
+                            <button id="Ellipse-btn" class="btn btn-primary btn-block text-xxl font-bold">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+                
+            </div>
+            <!-- container-Right-side-Child -->
+            <div class=" md:w-[30%] mx-auto ">
+                <h1 class="text-center text-3xl font-bold underline">Area Calculation</h1>
+                <div class="overflow-x-auto">
+                    <table class="table w-full">
+                      <!-- head -->
+                      <thead>
+                        <tr>
+                          <th>Sl no</th>
+                          <th>Name</th>
+                          <th>Area</th>
+                          <th>Total</th>
+                        </tr>
+                      </thead>
+                      <tbody id="table-body">
+                        
+                      </tbody>
+                    </table>
+                  </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/new.js"></script>
+</body>
+
+</html>
